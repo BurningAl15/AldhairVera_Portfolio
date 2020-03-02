@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/AldhairVera_Portfolio/static/css/main.b3e36d06.chunk.css",
+    "main.js": "/AldhairVera_Portfolio/static/js/main.92a0d523.chunk.js",
+    "main.js.map": "/AldhairVera_Portfolio/static/js/main.92a0d523.chunk.js.map",
+    "runtime-main.js": "/AldhairVera_Portfolio/static/js/runtime-main.55615eae.js",
+    "runtime-main.js.map": "/AldhairVera_Portfolio/static/js/runtime-main.55615eae.js.map",
+    "static/js/2.282ebaea.chunk.js": "/AldhairVera_Portfolio/static/js/2.282ebaea.chunk.js",
+    "static/js/2.282ebaea.chunk.js.map": "/AldhairVera_Portfolio/static/js/2.282ebaea.chunk.js.map",
+    "index.html": "/AldhairVera_Portfolio/index.html",
+    "precache-manifest.b11e68d36c5984fcd58c4a6cd93b8eff.js": "/AldhairVera_Portfolio/precache-manifest.b11e68d36c5984fcd58c4a6cd93b8eff.js",
+    "service-worker.js": "/AldhairVera_Portfolio/service-worker.js",
+    "static/css/main.b3e36d06.chunk.css.map": "/AldhairVera_Portfolio/static/css/main.b3e36d06.chunk.css.map",
+    "static/js/2.282ebaea.chunk.js.LICENSE": "/AldhairVera_Portfolio/static/js/2.282ebaea.chunk.js.LICENSE",
+    "static/media/CV.svg": "/AldhairVera_Portfolio/static/media/CV.2641ead0.svg",
+    "static/media/Facebook.svg": "/AldhairVera_Portfolio/static/media/Facebook.81463cbb.svg",
+    "static/media/Github.svg": "/AldhairVera_Portfolio/static/media/Github.c9de0890.svg",
+    "static/media/Instagram.svg": "/AldhairVera_Portfolio/static/media/Instagram.d75b243c.svg",
+    "static/media/LinkedIn.svg": "/AldhairVera_Portfolio/static/media/LinkedIn.36d2bd36.svg",
+    "static/media/NavIcon.svg": "/AldhairVera_Portfolio/static/media/NavIcon.320d92f5.svg",
+    "static/media/Twitter.svg": "/AldhairVera_Portfolio/static/media/Twitter.f9e74316.svg",
+    "static/media/logo.svg": "/AldhairVera_Portfolio/static/media/logo.ee7cd8ed.svg",
+    "static/media/App.css": "/AldhairVera_Portfolio/static/media/prstart.65cb344c.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55615eae.js",
+    "static/js/2.282ebaea.chunk.js",
+    "static/css/main.b3e36d06.chunk.css",
+    "static/js/main.92a0d523.chunk.js"
+  ]
+}
