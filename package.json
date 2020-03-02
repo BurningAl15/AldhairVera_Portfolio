@@ -12,7 +12,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0"
   },
-  "homepage": "https://burningal15.github.io/AldhairVera_Portfolio/",
+  "homepage": "https://burningal15.github.io/AldhairVera_Portfolio",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
