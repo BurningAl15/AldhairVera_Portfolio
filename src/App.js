@@ -12,9 +12,9 @@ import "./Components/styles/AboutMe.css";
 import "./Components/styles/Footer.css";
 
 import LandingPage from "./Page/LandingPage";
-import Games from "./Page/Games";
+// import Games from "./Page/Games";
 
-import Navbar from "./Components/Navbar";
+// import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 
 function App() {

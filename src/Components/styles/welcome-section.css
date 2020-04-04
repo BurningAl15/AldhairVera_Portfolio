@@ -57,7 +57,7 @@
 }
 
 .email {
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
   color: #595f6e;
   border: none;
   width: 500px;
@@ -71,7 +71,7 @@
 
 .subscribe-button:hover {
   color: var(--main-gray);
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
   border-color: #595f6e;
 }
 

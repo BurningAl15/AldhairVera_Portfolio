@@ -17,7 +17,6 @@ import WebCardList from "../Components/ComponentLists/WebCardList";
 import GameCardList from "../Components/ComponentLists/GameCardList";
 import PublishedCardList from "../Components/ComponentLists/PublishedCardList";
 
-
 class LandingPage extends React.Component {
   webCardData = {
     data: [
@@ -25,39 +24,39 @@ class LandingPage extends React.Component {
         id: 1,
         url: "https://codepen.io/burningal15/pen/zYxzoOa",
         imageUrl: "https://i.imgur.com/ORL73yJ.png",
-        title: "Tribute Page"
+        title: "Tribute Page",
       },
       {
         id: 2,
         url: "https://codepen.io/burningal15/pen/mdywxVm",
         imageUrl: "https://i.imgur.com/zUwJ6lP.png",
-        title: "Product Landing Page"
+        title: "Product Landing Page",
       },
       {
         id: 3,
         url: "https://codepen.io/burningal15/pen/gObRoOB",
         imageUrl: "https://i.imgur.com/A2FiOHe.png",
-        title: "Survey Form"
+        title: "Survey Form",
       },
       {
         id: 4,
         url: "https://codepen.io/burningal15/pen/mdypbpa",
         imageUrl: "https://i.imgur.com/aZlGlqC.png",
-        title: "Technical Documentation"
+        title: "Technical Documentation",
       },
       {
         id: 5,
         ur: "https://codepen.io/burningal15/pen/JjoMjMz",
         imageUrl: "https://i.imgur.com/pJuXKpy.png",
-        title: "Music App"
+        title: "Music App",
       },
       {
         id: 6,
         url: "https://codepen.io/burningal15/pen/povpoWd",
         imageUrl: "https://i.imgur.com/rm4v07F.png",
-        title: "Layout: Love Old Times"
-      }
-    ]
+        title: "Layout: Love Old Times",
+      },
+    ],
   };
 
   gameCardData = {
@@ -65,34 +64,34 @@ class LandingPage extends React.Component {
       {
         id: 1,
         url: "https://www.youtube.com/embed/HVlr5NpkPJk",
-        title: "Billiards Game"
+        title: "Billiards Game",
       },
       {
         id: 2,
         url: "https://www.youtube.com/embed/inBmYbhS4Ak",
-        title: "Box Smasher"
+        title: "Box Smasher",
       },
       {
         id: 3,
         url: "https://www.youtube.com/embed/XmtUJ3wQnsk",
-        title: "Sound Visualizer"
+        title: "Sound Visualizer",
       },
       {
         id: 4,
         url: "https://www.youtube.com/embed/1KWDhGR77QA",
-        title: "Flying Kitten"
+        title: "Flying Kitten",
       },
       {
         id: 5,
         url: "https://www.youtube.com/embed/i3bi3goLU8U",
-        title: "Icy Fighters"
+        title: "Icy Fighters",
       },
       {
         id: 6,
         url: "https://www.youtube.com/embed/qAJUQLE2ulQ",
-        title: "Ragnar and the sands of time"
-      }
-    ]
+        title: "Ragnar and the sands of time",
+      },
+    ],
   };
 
   workCardData = {
@@ -102,32 +101,42 @@ class LandingPage extends React.Component {
         job: "Jr. Game Programmer",
         place: "Boomware Technologies",
         time: "April 2018 - January 2019",
+        // jobDescription:"Program 2d videogame mechanics for mobile games",
         descriptionCardData: {
           data: [
             {
-              description: "Program a prototype of a 3d billiards game."
+              descriptionID: 1,
+              description: "Program a prototype of a 3d billiards game.",
+              url: "",
             },
             {
-              description: "Program the shopping system of Cinema Panic 2"
-            }
-          ]
-        }
+              descriptionID: 2,
+              description: "Program the shopping system of Cinema Panic 2",
+              url: "https://bit.ly/39C8oxn",
+            },
+          ],
+        },
       },
       {
         id: 2,
         job: "Gameplay Programmer",
         place: "BlueBayMob LLC.",
         time: "February 2019 - May 2019",
+        // jobDescription:"Program 2d videogame mechanics for mobile games",
         descriptionCardData: {
           data: [
             {
-              description: "Program 'Cube Rush'."
+              descriptionID: 1,
+              description: "Program 'Cube Rush'.",
+              url: "",
             },
             {
-              description: "Program 'Dash Ball'."
-            }
-          ]
-        }
+              descriptionID: 2,
+              description: "Program 'Dash Ball'.",
+              url: "",
+            },
+          ],
+        },
       },
       {
         id: 3,
@@ -137,12 +146,13 @@ class LandingPage extends React.Component {
         descriptionCardData: {
           data: [
             {
+              descriptionID: 1,
               description:
-                "Program some minigames in 'The Absolute value of accorns', an educative game where you teach the theory of positive and negative numbers and put it into practice in the minigames."
-              
-            }
-          ]
-        }
+                "Program some minigames in 'The Absolute Value of Acorns', an educative game where you teach the theory of positive and negative numbers and put it into practice in the minigames.",
+              url: "https://bit.ly/2UHFmIH",
+            },
+          ],
+        },
       },
       {
         id: 4,
@@ -152,17 +162,23 @@ class LandingPage extends React.Component {
         descriptionCardData: {
           data: [
             {
-              description: "Program and design Pig Year Food Fight"
+              descriptionID: 1,
+              description: "Program and design Pig Year Food Fight, a 2d mobile party game for two players in one phone",
+              url: "https://bit.ly/2RbLre7",
             },
             {
-              description: "Program and design Lazy Love"
+              descriptionID: 2,
+              description: "Program and design Lazy Love, this video game participated in the Lima Game Fest in the student's section",
+              url: "https://bit.ly/3bLnXEv",
             },
             {
+              descriptionID: 3,
               description:
-                "Design 4 minigames and program 2 of them in 'Pizza Master', an educative game where you teach the theory of fractions and put it into practice in the minigames."
-            }
-          ]
-        }
+                "Design 4 minigames and program 2 of them in 'Pizza Master', an educative game where you teach the theory of fractions and put it into practice in the minigames.",
+              url: "https://bit.ly/2UYN8Nb",
+            },
+          ],
+        },
       },
       {
         id: 5,
@@ -172,13 +188,47 @@ class LandingPage extends React.Component {
         descriptionCardData: {
           data: [
             {
+              descriptionID: 1,
               description:
-                "Program and design videolottery games for their own platform."
-            }
-          ]
-        }
-      }
-    ]
+                "Program and design videolottery games for their own platform.",
+              url: "",
+            },
+          ],
+        },
+      },
+      {
+        id: 6,
+        job: "Gameplay Programmer / Game Designer",
+        place: "Vahn Khatchadourian",
+        time: "September 2019 - February 2020",
+        descriptionCardData: {
+          data: [
+            {
+              descriptionID: 1,
+              description:
+                "Program and design Safari Rescue, a bubble shooter 2d mobile game",
+              url: "https://linktr.ee/aldhairvera",
+            },
+          ],
+        },
+      },
+      {
+        id: 7,
+        job: "VR Developer",
+        place: "PHVA Perú",
+        time: "January 2020 -  Now",
+        descriptionCardData: {
+          data: [
+            {
+              descriptionID: 1,
+              description:
+                "Make simulations of possible danger situations for industrial business, like factory fires and how a worker should try to fight the fire using extinguishers or run if the fire goes out of control.",
+              url: "",
+            },
+          ],
+        },
+      },
+    ],
   };
 
   render() {
@@ -191,12 +241,15 @@ class LandingPage extends React.Component {
             Aldhair Vera <br /> Camacho
           </h1>
           <p className="welcome-section-subtitle">
-            Front-End and Game Developer
+            Game Developer and Front-End Developer
           </p>
 
           <p className="welcome-section-about">
-            Computer Scientist - Unity3D / C#
-            <br />/ HTML / CSS / JS / React JS
+            Computer Science Student
+            <br />
+            Unity3D / C# / VR
+            <br />
+            HTML / CSS / JS / React JS / Vue JS
           </p>
 
           {/* <form className="subscribe" action="mailto:aldhairvera15@gmail.com" method="post">
@@ -285,12 +338,7 @@ class LandingPage extends React.Component {
             </a>
           </div>
         </section>
-        <section className="projects-section" id="projects-web">
-          <h2 className="projects-section-header">Some of my web projects</h2>
-
-          <WebCardList webCardElements={this.webCardData.data} />
-        </section>
-
+        
         <section className="projects-section-game" id="projects-games">
           <h2 className="projects-section-header-game">
             Some of my videogame projects
@@ -304,6 +352,13 @@ class LandingPage extends React.Component {
           <PublishedCardList publishedCardElements={this.workCardData.data} />
         </section>
 
+
+        <section className="projects-section" id="projects-web">
+          <h2 className="projects-section-header">Some of my web projects</h2>
+
+          <WebCardList webCardElements={this.webCardData.data} />
+        </section>
+
         <section className="about-me" id="about-me">
           <h2 className="about-me-title">ABOUT ME</h2>
           <p className="about-me-content">
@@ -311,12 +366,12 @@ class LandingPage extends React.Component {
           </p>
           <p className="about-me-content">
             I've found motivation for programming because i know that you can
-            teach a lot with videogames, apps and blogging about your
+            teach a lot with videogames, apps and blogging about my
             experiences.
           </p>
           <p className="about-me-content">
             Also love the visual feedback from videogame programming and
-            front-end development because you can see quickly what you are
+            front-end development because you can see quickly what i am
             doing.
           </p>
 
@@ -329,7 +384,7 @@ class LandingPage extends React.Component {
           <p className="about-me-content">
             I consider myself a never ending learner, love to work in
             multidisciplinary teams because i know i can learn things from every
-            person i met.
+            person i met and apply what i learn in my projects.
           </p>
 
           <p className="about-me-content mark-red">
@@ -341,9 +396,9 @@ class LandingPage extends React.Component {
           <h2 className="contact-me-title">CONTACT</h2>
           <p className="contact-me-content">
             Feel free to email me to provide feedback or if you have any
-            question about releases of my game.
+            question about my projects.
           </p>
-          <a href="mailto:aldhairvera@gmail.com" className="my-mail">
+          <a href="mailto:aldhairvera15@gmail.com" className="my-mail">
             <p className="my-mail">aldhairvera15@gmail.com</p>
           </a>
         </section>

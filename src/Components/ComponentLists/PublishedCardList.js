@@ -6,7 +6,7 @@ class PublishedCardList extends React.Component {
   render() {
     return (
       <div className="published-projects">
-        {this.props.publishedCardElements.map(element => {
+        {this.props.publishedCardElements.map((element) => {
           return (
             <PublishedCard
               key={element.id}

@@ -8,7 +8,7 @@ const GameCardElement = props => (
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
       className="project-video"
-    ></iframe>
+    />
 
     <p className="project-title-video">
       <span className="code">&lt;</span>

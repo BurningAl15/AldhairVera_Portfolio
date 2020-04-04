@@ -1,6 +1,6 @@
 import React from "react";
 
-const PublishedCard = props => (
+const PublishedCard = (props) => (
   <div className="published-card">
     <h2 className="published-card-job">{props.job}</h2>
     <p className="published-card-place">
@@ -9,9 +9,22 @@ const PublishedCard = props => (
     <p className="published-card-time">{props.time}</p>
     <p className="published-card-description">{props.description}</p>
     <ul className="published-card-List">
-      {props.descriptionElements.map(descript => {
+      {props.descriptionElements.map((descript) => {
         return (
-          <li className="published-card-description">{descript.description}</li>
+          <li className="published-card-description">
+            <span>{descript.description}</span>
+            {
+              descript.url !== "" &&
+            <a
+              className=""
+              href={descript.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Go
+            </a>
+            }
+          </li>
         );
       })}
     </ul>

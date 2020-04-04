@@ -1,13 +1,13 @@
 import React from "react";
 
 import GameCardElement from "../GameCardElement";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 class GameCardList extends React.Component {
   render() {
     return (
       <div className="projects-grid-game">
-        {this.props.gameCardElements.map(element => {
+        {this.props.gameCardElements.map((element) => {
           return (
             <GameCardElement
               key={element.id}
@@ -20,6 +20,7 @@ class GameCardList extends React.Component {
           href="https://aldhairvera.wordpress.com"
           className="btn-game btn-show-all-game"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Show all <p className="minor"> > </p>
         </a>

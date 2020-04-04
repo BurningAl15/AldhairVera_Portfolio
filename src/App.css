@@ -22,7 +22,7 @@
   box-sizing: border-box;
   font-size: 40px;
   color: aliceblue;
-  background-color: #302f2f;
+  /* background-color: #302f2f; */
   
 }
 
@@ -42,6 +42,9 @@ html {
   */
   font-size: 62.5%;
   scroll-behavior: smooth;
+  background: linear-gradient(to bottom, rgb(129, 128, 128) 0%, rgba(145, 144, 144, 0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) rgb(48, 47, 47); 
+  background-blend-mode: multiply,multiply;
+ 
 }
 
 /* A few media query to set some font sizes at different screen sizes.
