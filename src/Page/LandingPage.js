@@ -163,12 +163,14 @@ class LandingPage extends React.Component {
           data: [
             {
               descriptionID: 1,
-              description: "Program and design Pig Year Food Fight, a 2d mobile party game for two players in one phone",
+              description:
+                "Program and design Pig Year Food Fight, a 2d mobile party game for two players in one phone",
               url: "https://bit.ly/2RbLre7",
             },
             {
               descriptionID: 2,
-              description: "Program and design Lazy Love, this video game participated in the Lima Game Fest in the student's section",
+              description:
+                "Program and design Lazy Love, this video game participated in the Lima Game Fest in the student's section",
               url: "https://bit.ly/3bLnXEv",
             },
             {
@@ -198,7 +200,8 @@ class LandingPage extends React.Component {
               description:
                 "Program and design a roulette videolottery game for their own platform",
               url: "",
-            }, {
+            },
+            {
               descriptionID: 3,
               description:
                 "                                                                      ",
@@ -219,12 +222,14 @@ class LandingPage extends React.Component {
               description:
                 "Program and design Safari Rescue, a bubble shooter 2d mobile game",
               url: "https://linktr.ee/aldhairvera",
-            }, {
+            },
+            {
               descriptionID: 2,
               description:
                 "                                                                      ",
               url: "",
-            }, {
+            },
+            {
               descriptionID: 3,
               description:
                 "                                                                      ",
@@ -296,6 +301,8 @@ class LandingPage extends React.Component {
           <div className="welcome-section-socialContainer">
             <a
               href="https://twitter.com/AldhairVeraDev"
+              target="_blank"
+              rel="noopener noreferrer"
               className="social-network"
             >
               <img
@@ -305,7 +312,12 @@ class LandingPage extends React.Component {
                 className="social-network-content"
               />
             </a>
-            <a href="https://github.com/BurningAl15" className="social-network">
+            <a
+              href="https://github.com/BurningAl15"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-network"
+            >
               <img
                 src={githubLogo}
                 width="125"
@@ -315,6 +327,8 @@ class LandingPage extends React.Component {
             </a>
             <a
               href="https://www.linkedin.com/in/aldhairvera/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="social-network"
             >
               <img
@@ -326,6 +340,8 @@ class LandingPage extends React.Component {
             </a>
             <a
               href="https://www.facebook.com/aldhair.Vera"
+              target="_blank"
+              rel="noopener noreferrer"
               className="social-network"
             >
               <img
@@ -337,6 +353,8 @@ class LandingPage extends React.Component {
             </a>
             <a
               href="https://www.instagram.com/al_vera15/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="social-network"
             >
               <img
@@ -348,6 +366,8 @@ class LandingPage extends React.Component {
             </a>
             <a
               href="https://drive.google.com/open?id=1NdD8mh6Idrd5HK1vUjvgmL5uG6MM4L1V"
+              target="_blank"
+              rel="noopener noreferrer"
               className="social-network"
             >
               <img
@@ -359,7 +379,7 @@ class LandingPage extends React.Component {
             </a>
           </div>
         </section>
-        
+
         <section className="projects-section-game" id="projects-games">
           <h2 className="projects-section-header-game">
             Some of my videogame projects
@@ -386,13 +406,11 @@ class LandingPage extends React.Component {
           </p>
           <p className="about-me-content">
             I've found motivation for programming because i know that you can
-            teach a lot with videogames, apps and blogging about my
-            experiences.
+            teach a lot with videogames, apps and blogging about my experiences.
           </p>
           <p className="about-me-content">
             Also love the visual feedback from videogame programming and
-            front-end development because you can see quickly what i am
-            doing.
+            front-end development because you can see quickly what i am doing.
           </p>
 
           <p className="about-me-content">
