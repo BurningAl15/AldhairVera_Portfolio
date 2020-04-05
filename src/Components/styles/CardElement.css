@@ -12,6 +12,7 @@
   max-width: 50%;
   margin: 0 auto 6rem auto;
   font-family: "Ubuntu", sans-serif;
+  text-shadow: 2px 2px #AE60F7;
 }
 
 @media (max-width: 28.75em) {
@@ -117,6 +118,7 @@
   max-width: 50%;
   margin: 0 auto 6rem auto;
   font-family: "press start";
+  text-shadow: 2px 2px #AE60F7;
 }
 
 @media (max-width: 28.75em) {

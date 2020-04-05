@@ -63,33 +63,33 @@ class LandingPage extends React.Component {
     data: [
       {
         id: 1,
+        url: "https://www.youtube.com/embed/1dl4aTZT5GU",
+        title: "Pizza Master",
+      },
+      {
+        id: 2,
+        url: "https://www.youtube.com/embed/51BqSTw-HY8",
+        title: "Silent Scream",
+      },
+      {
+        id: 3,
+        url: "https://www.youtube.com/embed/rZJOCW_fjQY",
+        title: "Safari Rescue",
+      },
+      {
+        id: 4,
         url: "https://www.youtube.com/embed/HVlr5NpkPJk",
         title: "Billiards Game",
       },
       {
-        id: 2,
+        id: 5,
         url: "https://www.youtube.com/embed/inBmYbhS4Ak",
         title: "Box Smasher",
       },
       {
-        id: 3,
+        id: 6,
         url: "https://www.youtube.com/embed/XmtUJ3wQnsk",
         title: "Sound Visualizer",
-      },
-      {
-        id: 4,
-        url: "https://www.youtube.com/embed/1KWDhGR77QA",
-        title: "Flying Kitten",
-      },
-      {
-        id: 5,
-        url: "https://www.youtube.com/embed/i3bi3goLU8U",
-        title: "Icy Fighters",
-      },
-      {
-        id: 6,
-        url: "https://www.youtube.com/embed/qAJUQLE2ulQ",
-        title: "Ragnar and the sands of time",
       },
     ],
   };
@@ -352,7 +352,6 @@ class LandingPage extends React.Component {
           <PublishedCardList publishedCardElements={this.workCardData.data} />
         </section>
 
-
         <section className="projects-section" id="projects-web">
           <h2 className="projects-section-header">Some of my web projects</h2>
 
@@ -387,7 +386,7 @@ class LandingPage extends React.Component {
             person i met and apply what i learn in my projects.
           </p>
 
-          <p className="about-me-content mark-red">
+          <p className="about-me-content mark-red top-margin">
             "Programming gives pleasure to creative people"
           </p>
         </section>

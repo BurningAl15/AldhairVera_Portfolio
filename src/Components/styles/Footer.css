@@ -6,7 +6,7 @@ footer {
   display: flex;
   justify-content: center;
   padding: 1rem;
-  background: var(--main-gray);
+  background: rgb(27, 27, 27);
   border-top: 4px solid var(--main-red);
   clear: both;
   position: relative;

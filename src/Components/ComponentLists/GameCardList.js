@@ -17,7 +17,8 @@ class GameCardList extends React.Component {
           );
         })}
         <a
-          href="https://aldhairvera.wordpress.com"
+          // href="https://aldhairvera.wordpress.com"
+          href="https://www.youtube.com/channel/UCdcgOD_SQ9Pm1CyAC58-aZA/videos?view_as=subscriber"
           className="btn-game btn-show-all-game"
           target="_blank"
           rel="noopener noreferrer"
