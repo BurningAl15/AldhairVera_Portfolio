@@ -68,8 +68,8 @@ class LandingPage extends React.Component {
       },
       {
         id: 2,
-        url: "https://www.youtube.com/embed/51BqSTw-HY8",
-        title: "Silent Scream",
+        url: "https://www.youtube.com/embed/wo1B7hiIZ74",
+        title: "Lazy Love",
       },
       {
         id: 3,
@@ -83,8 +83,8 @@ class LandingPage extends React.Component {
       },
       {
         id: 5,
-        url: "https://www.youtube.com/embed/inBmYbhS4Ak",
-        title: "Box Smasher",
+        url: "https://www.youtube.com/embed/51BqSTw-HY8",
+        title: "Silent Scream",
       },
       {
         id: 6,
@@ -190,7 +190,18 @@ class LandingPage extends React.Component {
             {
               descriptionID: 1,
               description:
-                "Program and design videolottery games for their own platform.",
+                "Program and design a froggy videolottery game for their own platform",
+              url: "",
+            },
+            {
+              descriptionID: 2,
+              description:
+                "Program and design a roulette videolottery game for their own platform",
+              url: "",
+            }, {
+              descriptionID: 3,
+              description:
+                "                                                                      ",
               url: "",
             },
           ],
@@ -208,6 +219,16 @@ class LandingPage extends React.Component {
               description:
                 "Program and design Safari Rescue, a bubble shooter 2d mobile game",
               url: "https://linktr.ee/aldhairvera",
+            }, {
+              descriptionID: 2,
+              description:
+                "                                                                      ",
+              url: "",
+            }, {
+              descriptionID: 3,
+              description:
+                "                                                                      ",
+              url: "",
             },
           ],
         },
