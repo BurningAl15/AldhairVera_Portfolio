@@ -12,6 +12,7 @@
 .about-me-title {
   font-size: 5rem;
   font-family: "Ubuntu", sans-serif;
+  margin-bottom:20px;
 }
 
 .about-me-content {
@@ -20,6 +21,8 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+
+  margin-top:20px;
 }
 
 .top-margin{
@@ -69,4 +72,8 @@
 
 .mark-red{
   color: var(--main-red);
+}
+
+.big-text{
+  font-size: 3rem;
 }

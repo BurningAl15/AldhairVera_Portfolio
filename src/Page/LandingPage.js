@@ -425,7 +425,7 @@ class LandingPage extends React.Component {
             person i met and apply what i learn in my projects.
           </p>
 
-          <p className="about-me-content mark-red top-margin">
+          <p className="about-me-content mark-red top-margin big-text">
             "Programming gives pleasure to creative people"
           </p>
         </section>
