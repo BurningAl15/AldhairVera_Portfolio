@@ -1,14 +1,12 @@
 .published-projects-section {
   min-height: 120vh;
   max-width: 90%;
-  /* font-family: "Amatic SC", cursive; */
   font-family: "Lato", sans-serif;
   text-align: center;
   padding-top: 6%;
   padding-bottom: 7.5%;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .published-projects {
@@ -22,16 +20,17 @@
   max-width: 50%;
   margin: 0 auto 6rem auto;
   font-family: "Ubuntu", sans-serif;
-  text-shadow: 2px 2px #AE60F7;
+  text-shadow: 2px 2px #ae60f7;
 }
 
 .published-card {
   text-align: start;
-  border-radius: 15%;
+  border-radius: 10%;
   box-shadow: 3px 3px 3px 1px #000;
+  min-width: 30%;
   width: 30%;
   min-height: 400px;
-  padding: 2%;
+  padding: 3%;
   margin: 1.5%;
   flex-shrink: 0;
   display: flex;
@@ -42,16 +41,13 @@
 }
 
 .published-card:hover {
-  border-radius: 5%;
+  border-radius: 7.5%;
   box-shadow: 5px 5px 5px 3px #000;
   background-color: var(--main-gray);
+  border-radius: 15%;
 }
 
-@media (max-width: 1100px) {
-  .published-card {
-    min-height: 500px;
-  }
-}
+/* ----------------- */
 
 .published-card-job .published-card-place .published-card-time {
   text-align: start;
@@ -60,19 +56,18 @@
 }
 
 .published-card h2 {
-  text-align: start;
-
-  color: #ae60f7;
   font-size: 3.5rem;
+  text-align: start;
+  color: #ae60f7;
 }
 
-.published-card p strong{
+.published-card p strong {
   font-size: 3rem;
 }
 
 .published-card p {
-  text-align: start;
   font-size: 2rem;
+  text-align: start;
   padding-left: 2.5%;
 }
 
@@ -91,11 +86,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: #9869c5; */
   margin-bottom: 10px;
-  /* border-bottom: #9869c5;
-  border-width: 5px;
-  border-style: solid; */
+  /* border-bottom: rgba(255, 255, 255, 0.719) solid 1px; */
 }
 
 .published-card-description a {
@@ -121,4 +113,63 @@
   max-width: 75%;
   width: 70%;
   font-size: 1.8rem;
+}
+
+@media (max-width: 1500px) {
+  .published-card {
+    min-width: 40%;
+    min-height: 500px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .published-card h2 {
+    font-size: 3rem;
+  }
+
+  .published-card p strong {
+    font-size: 2.25rem;
+  }
+
+  .published-card p {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .published-card {
+    min-height: 600px;
+    height: 100%;
+    min-width: 80%;
+    padding: 5%;
+  }
+
+  .published-header{
+    font-size: 5rem;
+  }
+  .published-card h2 {
+    font-size: 4rem;
+    /* text-align: center; */
+    padding-left: 5%;
+  }
+
+  .published-card p strong {
+    font-size: 3rem;
+    /* text-align: center; */
+  }
+
+  .published-card p {
+    font-size: 2.25rem;
+    /* text-align: center; */
+    padding-left: 5%;
+
+  }
+  .published-card-description {
+    padding-left: 0;
+  }
+  .published-card-description span {
+    max-width: 90%;
+    width: 90%;
+    font-size: 2.25rem;
+  }
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-const GameCardElement = props => (
+const GameCardElement = (props) => (
   <div className="project project-tile">
     <iframe
       src={props.url}

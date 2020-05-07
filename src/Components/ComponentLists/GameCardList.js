@@ -6,18 +6,19 @@ import GameCardElement from "../GameCardElement";
 class GameCardList extends React.Component {
   render() {
     return (
-      <div className="projects-grid-game">
-        {this.props.gameCardElements.map((element) => {
-          return (
-            <GameCardElement
-              key={element.id}
-              url={element.url}
-              title={element.title}
-            />
-          );
-        })}
+      <React.Fragment>
+        <div className="projects-grid-game">
+          {this.props.gameCardElements.map((element) => {
+            return (
+              <GameCardElement
+                key={element.id}
+                url={element.url}
+                title={element.title}
+              />
+            );
+          })}
+        </div>
         <a
-          // href="https://aldhairvera.wordpress.com"
           href="https://www.youtube.com/channel/UCdcgOD_SQ9Pm1CyAC58-aZA/videos?view_as=subscriber"
           className="btn-game btn-show-all-game"
           target="_blank"
@@ -25,14 +26,7 @@ class GameCardList extends React.Component {
         >
           Show all <p className="minor"> > </p>
         </a>
-
-        {/* <Link
-          to="/Gaming"
-          className="btn-game btn-show-all-game"
-        >
-          Show all <p className="minor"> > </p>
-        </Link> */}
-      </div>
+      </React.Fragment>
     );
   }
 }

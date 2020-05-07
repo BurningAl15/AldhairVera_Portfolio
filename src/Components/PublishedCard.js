@@ -11,20 +11,23 @@ const PublishedCard = (props) => (
     <ul className="published-card-List">
       {props.descriptionElements.map((descript) => {
         return (
-          <li className="published-card-description">
-            <span>{descript.description}</span>
-            {
-              descript.url !== "" &&
-            <a
-              className=""
-              href={descript.url}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Go
-            </a>
-            }
-          </li>
+          <React.Fragment>
+            {descript.description !== "" && (
+              <li className="published-card-description">
+                <span>{descript.description}</span>
+                {descript.url !== "" && (
+                  <a
+                    className=""
+                    href={descript.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Go
+                  </a>
+                )}
+              </li>
+            )}
+          </React.Fragment>
         );
       })}
     </ul>

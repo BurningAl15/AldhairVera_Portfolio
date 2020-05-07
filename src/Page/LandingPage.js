@@ -135,6 +135,11 @@ class LandingPage extends React.Component {
               description: "Program 'Dash Ball'.",
               url: "",
             },
+            {
+              descriptionID: 3,
+              description: "",
+              url: "",
+            },
           ],
         },
       },
@@ -150,6 +155,16 @@ class LandingPage extends React.Component {
               description:
                 "Program some minigames in 'The Absolute Value of Acorns', an educative game where you teach the theory of positive and negative numbers and put it into practice in the minigames.",
               url: "https://bit.ly/2UHFmIH",
+            },
+            {
+              descriptionID: 2,
+              description: "",
+              url: "",
+            },
+            {
+              descriptionID: 3,
+              description: "",
+              url: "",
             },
           ],
         },
@@ -203,8 +218,7 @@ class LandingPage extends React.Component {
             },
             {
               descriptionID: 3,
-              description:
-                "                                                                      ",
+              description: "",
               url: "",
             },
           ],
@@ -225,14 +239,12 @@ class LandingPage extends React.Component {
             },
             {
               descriptionID: 2,
-              description:
-                "                                                                      ",
+              description: "",
               url: "",
             },
             {
               descriptionID: 3,
-              description:
-                "                                                                      ",
+              description: "",
               url: "",
             },
           ],
@@ -251,6 +263,16 @@ class LandingPage extends React.Component {
                 "Make simulations of possible danger situations for industrial business, like factory fires and how a worker should try to fight the fire using extinguishers or run if the fire goes out of control.",
               url: "",
             },
+            {
+              descriptionID: 2,
+              description: "",
+              url: "",
+            },
+            {
+              descriptionID: 3,
+              description: "",
+              url: "",
+            },
           ],
         },
       },
@@ -261,8 +283,6 @@ class LandingPage extends React.Component {
     return (
       <React.Fragment>
         <section className="welcome-section" id="welcome-section">
-          {/* <p className="welcome-section-subtitle">Welcome! I am</p> */}
-
           <h1 className="welcome-section-title">
             Aldhair Vera <br /> Camacho
           </h1>
@@ -277,25 +297,6 @@ class LandingPage extends React.Component {
             <br />
             HTML / CSS / JS / React JS / Vue JS
           </p>
-
-          {/* <form className="subscribe" action="mailto:aldhairvera15@gmail.com" method="post">
-            <input
-              className="email"
-              name="email"
-              placeholder="Email Adress"
-              type="email"
-              aria-required="true"
-              autoComplete="off"
-              required
-            />
-
-            <input
-              className="subscribe-button"
-              name="subscribe-button"
-              type="submit"
-              value="Submit"
-            />
-          </form> */}
 
           <h3 className="welcome-section-element">Find me on</h3>
           <div className="welcome-section-socialContainer">
@@ -437,7 +438,7 @@ class LandingPage extends React.Component {
             question about my projects.
           </p>
           <a href="mailto:aldhairvera15@gmail.com" className="my-mail">
-            <p className="my-mail">aldhairvera15@gmail.com</p>
+            <p>aldhairvera15@gmail.com</p>
           </a>
         </section>
       </React.Fragment>
