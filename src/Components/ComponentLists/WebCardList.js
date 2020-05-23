@@ -19,7 +19,7 @@ class WebCardList extends React.Component {
           })}
         </div>
         <a
-          href="https://codepen.io/burningal15"
+          href="https://burningal15.github.io/WebPortfolio/"
           className="btn btn-show-all"
           target="_blank"
           rel="noopener noreferrer"

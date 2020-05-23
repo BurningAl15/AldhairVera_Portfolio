@@ -5,7 +5,7 @@
   justify-content: center;
   min-height: 80vh;
   padding-top: 7.5%;
-  padding-bottom: 7.5%;
+  padding-bottom: 5%;
   font-family: "Lato", sans-serif;
 }
 
@@ -35,9 +35,9 @@
   justify-content: center;
 
   text-align: center;
-  min-height: 60vh;
-  padding-top: auto;
-}
+  min-height: 40vh;
+  padding-bottom: 5%;
+  }
 
 .contact-me-title {
   font-size: 5rem;

@@ -26,7 +26,7 @@
 .published-card {
   text-align: start;
   border-radius: 10%;
-  box-shadow: 3px 3px 3px 1px #000;
+  box-shadow: 0 3px 3px #000;
   min-width: 30%;
   width: 30%;
   min-height: 400px;
@@ -42,7 +42,7 @@
 
 .published-card:hover {
   border-radius: 7.5%;
-  box-shadow: 5px 5px 5px 3px #000;
+  box-shadow: 0 10px 10px #000;
   background-color: var(--main-gray);
   border-radius: 15%;
 }
